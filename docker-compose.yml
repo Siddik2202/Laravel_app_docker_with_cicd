@@ -29,3 +29,9 @@ services:
       - "8000:80"
     networks:
       - laravel_net
+
+volumes:
+  db_data:
+
+networks:
+  laravel_net:
